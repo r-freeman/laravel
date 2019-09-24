@@ -22,3 +22,5 @@ Route::get('/hello-world', function () {
 Route::get('/about', function () {
     return '<h1>This is the about page</h1>';
 });
+
+Route::get('/hello', 'HelloController@hello');
